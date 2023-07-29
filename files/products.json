@@ -1,0 +1,29 @@
+[
+	{
+		"title": "Cafe",
+		"description": "Taza de cafe",
+		"price": 600,
+		"thumbnail": "url imagen",
+		"code": 75357,
+		"stock": 60,
+		"id": 1
+	},
+	{
+		"title": "PCafe con torta",
+		"description": "Taza de cafe con una procion de torta",
+		"price": 1200,
+		"thumbnail": "url imagen",
+		"code": 94730,
+		"stock": 60,
+		"id": 2
+	},
+	{
+		"title": "Cafe con leche",
+		"description": "Taza de cafe con leche",
+		"price": 700,
+		"thumbnail": "url imagen",
+		"code": 9203,
+		"stock": 60,
+		"id": 3
+	}
+]
