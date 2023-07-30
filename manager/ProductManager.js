@@ -58,12 +58,13 @@ export default class ProductManager{
     getProductsById = async(id) => {
         try{
             let resultado = await this.getProducts();
+            
             let product = resultado.find(p => p.id == id);
 
             if(product) {
-                return console.log(product);
+                return product;
             } else {
-                return console.error("Not Found");
+                throw new Error('Not found');
             };
         }catch (err) {
             console.log(err);
